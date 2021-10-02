@@ -27,7 +27,6 @@ int createSquare(int square[][3]){
         for(int c = 0; c < sizeof(square[0])/sizeof(int); c++){
             //printf("Size of col: %lu\n", sizeof(square[0])/sizeof(int));
             square[r][c] = (rand() % 9) + 1;
-            printf("square[%d][%d] = %d\n", r, c, square[r][c]);
         }
     }
 
